@@ -17,6 +17,7 @@
                 {% for post in posts: %}
                     {% if post['id'] == id: %}
                         <h2>{{ post['title'] }}</h2>
+                        <h4>{{ post['subtitle']}}</h4>
                         <p>{{ post['body'] }}</p>
                     {% else: %}
                         {{ continue }}
