@@ -7,7 +7,7 @@ Python and Jinja was used to generate dynamic content for the webpages
 Functionality:
 import requests
 URL = 'https://api.npoint.io/5abcca6f4e39b4955965'
-Angela Yu created the data for the posts
+Angela Yu from App Brewery created the data for the posts
 
 I used a class to keep the main.py file clutter free
 class Post:
