@@ -37,6 +37,12 @@ Dynamically generated contents for the index page:
 
 </div>
 
+call for individual posts and contents
+I passed the id received from the link and the Posts object posts var
+@app.route('/post/<int:post_id>')
+def get_blog(post_id):
+    return render_template('post.html', posts=my_posts.posts, id=post_id)
+
 The body of the post is displayed after clicking the read link on the index page:
 
 <div class="wrapper">
